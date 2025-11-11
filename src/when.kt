@@ -13,7 +13,7 @@ fun main() {
         5 -> "Friday"
         else -> "Invalid day of the week"
     }
-
+    println("Today is $result")
 
 
 }
