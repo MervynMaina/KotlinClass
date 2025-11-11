@@ -35,6 +35,7 @@ fun main() {
 
     println(log > 34 && log < 60)
     println(log > 34 || log < 60)
+    println(!(log > 34 || log < 60))
 
 
 
