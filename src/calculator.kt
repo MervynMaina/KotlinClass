@@ -12,11 +12,6 @@ fun main() {
     println("Enter the second number:")
     var num2 = reader.nextDouble()
 
-    if (num1 == null || operator == null || num2 == null) {
-        println("Invalid input. Please enter valid numbers and an operator.")
-        return
-    }
-
     var result = when (operator) {
         "+" -> num1 + num2
         "-" -> num1 - num2
